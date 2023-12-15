@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    background-color: #fff;
+    padding-top: 15px;
+    border-right: 1px solid gray; /* Añade un borde derecho */
+}
+
+.sidebar-logo img {
+    width: 100%;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.sidebar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.sidebar-nav .nav-link i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.sidebar-nav .nav-link:hover {
+    background-color: #2e59d9;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 350px; /* Ajusta este valor según sea necesario */
+    overflow: hidden; /* Esto puede ayudar a recortar la imagen si es necesario */
+}
+
+.card img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: 200px; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+
+
