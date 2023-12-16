@@ -25,7 +25,7 @@ loginForm.addEventListener('submit', function(event) {
          errorMessage.textContent = '';
 
          // Redirigir a la nueva página después del inicio de sesión exitoso
-         window.location.href = '/public/app.html'; // Reemplaza 'nueva_pagina.html' con la URL de tu nueva página
+         window.location.href = 'public/app.html'; // Reemplaza 'nueva_pagina.html' con la URL de tu nueva página
       })
       .catch(error => {
          // Error: Muestra un mensaje de error personalizado al usuario
