@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const imagen = document.createElement("img");
                 imagen.className = "receta-img";
-                imagen.src = "/images/"+receta.imagen;
+                imagen.src = "../images/"+receta.imagen;
                 imagen.alt = receta.nombre;
 
                 const info = document.createElement("div");
@@ -63,7 +63,8 @@ function mostrarRecetaModal(receta) {
     // Agregar la imagen al cuerpo del modal con clases de Bootstrap
     const imagenModal = document.createElement("img");
     imagenModal.className = "modal-img img-fluid";  // Agregamos la clase img-fluid para que la imagen sea responsive
-    imagenModal.src = "images/" + receta.imagen;
+    imagenModal.src = "../images/" + receta.imagen;
+
     imagenModal.alt = receta.nombre;
     modalBody.appendChild(imagenModal);
 
