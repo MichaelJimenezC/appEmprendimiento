@@ -63,7 +63,7 @@ function mostrarRecetaModal(receta) {
     // Agregar la imagen al cuerpo del modal con clases de Bootstrap
     const imagenModal = document.createElement("img");
     imagenModal.className = "modal-img img-fluid";  // Agregamos la clase img-fluid para que la imagen sea responsive
-    imagenModal.src = "../images/" + receta.imagen;
+    imagenModal.src = "images/" + receta.imagen;
     imagenModal.alt = receta.nombre;
     modalBody.appendChild(imagenModal);
 
