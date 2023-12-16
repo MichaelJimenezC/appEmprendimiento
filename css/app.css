@@ -51,5 +51,34 @@ body {
     height: 200px; /* La altura se ajustará automáticamente para mantener la proporción */
     display: block; /* Elimina el espacio adicional debajo de la imagen */
 }
+/* Ajustes para el chatbot en la ventana modal */
+.chat-body {
+    height: 300px;
+    overflow-y: scroll;
+}
+/* Agrega estas reglas de estilo al final de tu archivo CSS o en el lugar adecuado */
+.chat-container {
+    display: flex;
+    flex-direction: column; /* Coloca los mensajes en columna */
+    align-items: flex-end; /* Alinea los mensajes del usuario a la derecha */
+}
 
+.chat-message {
+    max-width: 70%; /* O ajusta según tus necesidades */
+    margin: 8px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chat-message.user {
+    background-color: #007bff; /* Estilo para mensajes del usuario */
+    color: white;
+    align-self: flex-end; /* Alinea el mensaje del usuario a la derecha */
+}
+
+.chat-message.bot {
+    background-color: #e0e0e0; /* Estilo para mensajes del chatbot */
+    color: black;
+    align-self: flex-start; /* Alinea el mensaje del chatbot a la izquierda */
+}
 

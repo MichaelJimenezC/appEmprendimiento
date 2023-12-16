@@ -1,0 +1,170 @@
+{
+    "recetas_saludables": [
+      {
+        "nombre": "Ensalada de Quinoa y Verduras",
+        "imagen": "ensalada_quinoa_verduras.jpg",
+        "pasos": [
+          "Cocina la quinoa según las instrucciones del paquete.",
+          "Mezcla la quinoa cocida con espinacas, tomate cherry, pepino y aguacate.",
+          "Aliña con aceite de oliva, limón, sal y pimienta al gusto."
+        ]
+      },
+      {
+        "nombre": "Salmón al Horno con Hierbas",
+        "imagen": "salmon_hierbas.jpg",
+        "pasos": [
+          "Coloca filetes de salmón en una bandeja para hornear.",
+          "Espolvorea con hierbas frescas como eneldo y perejil.",
+          "Exprime un poco de limón sobre el salmón y hornea hasta que esté cocido."
+        ]
+      },
+      {
+        "nombre": "Pollo a la Parrilla con Limón y Romero",
+        "imagen": "pollo_parrilla_limon_romero.jpg",
+        "pasos": [
+          "Marina pechugas de pollo con jugo de limón, romero fresco, ajo y aceite de oliva.",
+          "Asa el pollo a la parrilla hasta que esté bien cocido."
+        ]
+      },
+      {
+        "nombre": "Tacos de Pescado con Salsa de Aguacate",
+        "imagen": "tacos_pescado_salsa_aguacate.jpg",
+        "pasos": [
+          "Cocina filetes de pescado blanco a la parrilla.",
+          "Prepara una salsa con aguacate, cilantro, tomate y limón.",
+          "Rellena tortillas integrales con el pescado y la salsa."
+        ]
+      },
+      {
+        "nombre": "Brócoli al Vapor con Almendras",
+        "imagen": "brocoli_vapor_almendras.jpg",
+        "pasos": [
+          "Cocina el brócoli al vapor hasta que esté tierno pero aún crujiente.",
+          "Espolvorea almendras tostadas sobre el brócoli.",
+          "Aliña con aceite de oliva y ajo."
+        ]
+      },
+      {
+        "nombre": "Ensalada de Garbanzos y Vegetales",
+        "imagen": "ensalada_garbanzos_vegetales.jpg",
+        "pasos": [
+          "Mezcla garbanzos cocidos con tomate, pepino, pimiento y cebolla.",
+          "Aliña con vinagre balsámico, aceite de oliva y hierbas frescas."
+        ]
+      },
+      {
+        "nombre": "Hummus de Aguacate",
+        "imagen": "hummus_aguacate.jpg",
+        "pasos": [
+          "Mezcla garbanzos cocidos con aguacate, ajo, tahini, limón y sal.",
+          "Procesa hasta obtener un puré suave. Sirve con vegetales frescos."
+        ]
+      },
+      {
+        "nombre": "Pechugas de Pavo a la Mostaza",
+        "imagen": "pechuga_pavo_mostaza.jpg",
+        "pasos": [
+          "Unta pechugas de pavo con mostaza dijon.",
+          "Asa al horno hasta que estén bien cocidas."
+        ]
+      },
+      {
+        "nombre": "Batido de Frutas y Espinacas",
+        "imagen": "batido_frutas_espinacas.jpg",
+        "pasos": [
+          "Mezcla espinacas frescas con plátano, piña, manzana y agua.",
+          "Licua hasta obtener un batido suave y refrescante."
+        ]
+      },
+      {
+        "nombre": "Pasta Integral con Salsa de Tomate Casera",
+        "imagen": "pasta_integral_salsa_tomate.jpg",
+        "pasos": [
+          "Cocina pasta integral según las instrucciones del paquete.",
+          "Prepara una salsa de tomate con tomates frescos, ajo y albahaca.",
+          "Mezcla la pasta con la salsa y sirve."
+        ]
+      },
+      {
+        "nombre": "Ensalada de Lentejas y Vegetales",
+        "imagen": "ensalada_lentejas_vegetales.jpg",
+        "pasos": [
+          "Cocina lentejas y mezcla con tomate, pepino, pimiento y cebolla.",
+          "Aliña con vinagre de vino tinto, aceite de oliva y hierbas frescas."
+        ]
+      },
+      {
+        "nombre": "Wrap de Pollo con Aguacate",
+        "imagen": "wrap_pollo_aguacate.jpg",
+        "pasos": [
+          "Rellena un wrap integral con pechuga de pollo a la parrilla, aguacate y espinacas.",
+          "Envuelve y sirve como opción de almuerzo ligero."
+        ]
+      },
+      {
+        "nombre": "Sopa de Tomate y Albahaca",
+        "imagen": "sopa_tomate_albahaca.jpg",
+        "pasos": [
+          "Cocina tomates frescos con ajo, cebolla y albahaca.",
+          "Licua hasta obtener una sopa suave y reconfortante."
+        ]
+      },
+      {
+        "nombre": "Filete de Tilapia con Hierbas",
+        "imagen": "tilapia_hierbas.jpg",
+        "pasos": [
+          "Marina filetes de tilapia con hierbas frescas como perejil y tomillo.",
+          "Asa o cocina al horno hasta que estén bien cocidos."
+        ]
+      },
+      {
+        "nombre": "Ensalada de Frutas Frescas",
+        "imagen": "ensalada_frutas.jpg",
+        "pasos": [
+          "Mezcla variedad de frutas frescas como fresas, piña y kiwi.",
+          "Sirve con una pizca de menta fresca."
+        ]
+      },
+      {
+        "nombre": "Sándwich de Pavo Integral",
+        "imagen": "sandwich_pavo_integral.jpg",
+        "pasos": [
+          "Unta pan integral con mostaza y coloca lonjas de pavo magro.",
+          "Añade lechuga, tomate y aguacate. Cierra y sirve."
+        ]
+      },
+      {
+        "nombre": "Berengenas Asadas con Tomate y Queso Feta",
+        "imagen": "berenjenas_tomate_feta.jpg",
+        "pasos": [
+          "Corta berenjenas en rodajas y ásalas hasta que estén tiernas.",
+          "Cubre con rodajas de tomate y queso feta. Gratina hasta que el queso se derrita."
+        ]
+      },
+      {
+        "nombre": "Arroz Integral con Vegetales",
+        "imagen": "arroz_integral_vegetales.jpg",
+        "pasos": [
+          "Cocina arroz integral según las instrucciones del paquete.",
+          "Mezcla con zanahorias, guisantes y brócoli cocidos al vapor."
+        ]
+      },
+      {
+        "nombre": "Smoothie de Bayas y Espinacas",
+        "imagen": "smoothie_bayas_espinacas.jpg",
+        "pasos": [
+          "Combina bayas con espinacas frescas y yogur natural.",
+          "Licua hasta obtener un smoothie antioxidante y nutritivo."
+        ]
+      },
+      {
+        "nombre": "Tostadas de Aguacate con Huevo",
+        "imagen": "tostadas_aguacate_huevo.jpg",
+        "pasos": [
+          "Tuesta pan integral y úntalo con aguacate maduro.",
+          "Sirve con huevo pochado encima y espolvorea con pimienta negra."
+        ]
+      }
+    ]
+  }
+  

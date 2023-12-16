@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/recetas.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Biblioteca de Recetas</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barra lateral -->
+            <nav class="col-md-2 d-none d-md-block sidebar">
+                <div class="sidebar-logo text-center">
+                    <img src="../images/logo.png" alt="Logo">
+                </div>
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="app.html">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="psicologos.html">
+                                <i class="fas fa-cog"></i> Psicologos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="juegos.html">
+                                <i class="fas fa-cog"></i> Juegos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recetas.html">
+                                <i class="fas fa-cog"></i> Recetas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consejos.html">
+                                <i class="fas fa-cog"></i> Consejerias
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="videollamada.html">
+                                <i class="fas fa-cog"></i> Videollamadas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="perfil.html">
+                                <i class="fas fa-user"></i> Perfil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="configuracion.html">
+                                <i class="fas fa-cog"></i> Configuración
+                            </a>
+                        </li>
+
+                        <!-- Agrega más opciones según sea necesario -->
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Contenido principal -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 content">
+                <h2>Recetas Saludables</h2>
+                <div class="recetas-container" id="recetasContainer">
+                    <!-- Las recetas se agregarán dinámicamente aquí -->
+                </div>
+            </main>
+
+        </div>
+        <!-- Botón flotante -->
+        <div class="fixed-bottom fixed-right m-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chatModal">
+                <i class="fas fa-comment"></i> Chat
+            </button>
+        </div>
+
+        <!-- Modal de chat -->
+        <div class="modal" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="chatModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chatModalLabel">Chat en línea</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body chat-body">
+                        <div class="chat-container" id="chatContainer">
+                            <div class="chat-message bot">
+                                <p>Hola, ¿en qué puedo ayudarte?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="text" id="userMessage" class="form-control" placeholder="Escribe tu mensaje...">
+                        <button type="button" class="btn btn-primary" id="enviarBtn">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/recetas.js"></script>
+    <script src="../js/chatbot.js"></script>
+</body>
+
+</html>
