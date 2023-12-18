@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "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";
 
         async function getCompletion(prompt) {
             const response = await fetch(`https://api.openai.com/v1/completions`, {
@@ -10,7 +10,7 @@ const API_KEY = "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";
                 body: JSON.stringify({
                     model: "text-davinci-003",
                     prompt: prompt,
-                    max_tokens: 1000,
+                    max_tokens: 10000,
                 }),
             });
 
