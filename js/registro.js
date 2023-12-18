@@ -22,7 +22,7 @@ registrationForm.addEventListener('submit', function(event) {
             errorMessage.textContent = '';
 
             // Puedes redirigir al usuario a la página de inicio de sesión, por ejemplo
-            window.location.href = './index.html'; // Reemplaza 'login.html' con la URL de tu página de inicio de sesión
+            window.location.href = 'appEmprendimiento/index.html'; // Reemplaza 'login.html' con la URL de tu página de inicio de sesión
         })
         .catch(error => {
             // Error: Muestra un mensaje de error personalizado al usuario
